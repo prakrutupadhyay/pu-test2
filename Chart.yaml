@@ -24,7 +24,7 @@ maintainers:
   url: https://solace.community/
 - name: Solace Support
   url: https://solace.com/support/
-name: pubsubplus
+name: pu-test2
 sources:
 - https://github.com/SolaceProducts/pubsubplus-kubernetes-quickstart
 version: 3.1.0
