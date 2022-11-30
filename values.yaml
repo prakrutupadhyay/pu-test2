@@ -194,9 +194,9 @@ storage:
   # storage.customVolumeMount enables specifying a YAML fragment how the data volume should be mounted.
   #   If customVolumeMount is defined the rest of the storage params will be ignored
   #   This example shows how to mount the PubSub+ data volume from an existing pvc "test-claim". Ensure to preserve indentation.
-  customVolumeMount: |
-    persistentVolumeClaim:
-      claimName: pvc-dynamic
+  # customVolumeMount: |
+  #  persistentVolumeClaim:
+  #    claimName: pvc-dynamic
 
   # storage.slow=true to indicate slow storage used, must be set for NFS. Default is false.
   # slow: true
@@ -214,4 +214,4 @@ storage:
   #storage.useStorageGroup: use a single mount point storage-group, as recommended from PubSub+ version 9.12
   #  if undefined or set to false, the legacy behavior is to individually mount storage-elements in subdirectories.
   #  Note: legacy mount still works for broker version 9.12 and later but may be deprecated in the future.
-  # useStorageGroup: true
+  useStorageGroup: true
