@@ -68,7 +68,7 @@ image:
   # Default repository
   repository: solace/solace-pubsub-standard
   # Recommending to use a specific version tag for production
-  tag: latest
+  tag: 10.0.1.91
 
   # Specify if not using default IfNotPresent
   # pullPolicy: IfNotPresent
